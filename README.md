@@ -45,5 +45,5 @@ This is a demo at a subdomain of my personal site at https://simpol.scottmathson
 Check out these blog posts for help in getting started blogging with Simpol Theme. Within the posts are even more resources to help you.
 
 * [Markdown Overview, Simpol Blogging](https://scottmathson.com/blog/2017/04/15/markdown-overview-blogging-with-jekyll/)
-* [Adding New Posts, Simpol Blogging](https://simpoltheme.com/tips/tricks/2017/04/16/writing-new-post/)
+* [Adding New Posts, Simpol Blogging](https://simpol.scottmathson.com/tips/tricks/2017/04/16/writing-new-post/)
 * [Deploy Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/)
