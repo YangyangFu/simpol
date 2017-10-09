@@ -1,0 +1,62 @@
+# Site settings
+title: Simpol Jekyll Theme
+subtitle: Focus on the writing, the content.
+
+#content for index.html
+greeting: Hello, I'm Simpol Theme.
+logo_img: /assets/img/simpol-theme-square-writing-logo.png
+subgreeting_one: Jekyll theme that's all about the content.
+subgreeting_two: Minimal, clean, simple blogging.
+
+#content for nav.html (shown on desktop) navigation links - use absolute urls
+nav_link_one_name: About
+nav_link_one_link: "/about"
+
+nav_link_two_name: Post categories
+nav_link_two_link: "/categories"
+
+nav_link_three_name: Get the Theme
+nav_link_three_link: "/get-simpol-theme"
+
+baseurl: ""
+google_tracking_id: UA-76046814-3
+copyright_name: Mathson Design, LLC
+url: "https://simpol.scottmathson.com"   # with the https protocol
+enforce_ssl: simpol.scottmathson.com   # without any protocol
+
+# SEO data (https://github.com/jekyll/jekyll-seo-tag)
+logo: /assets/img/simpol-favicon.png
+description: Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll by Scott Mathson.
+author:
+  name: Scott Mathson
+  email: yo@scottmathson.com
+  twitter: scottmathson
+
+social:
+name: Scott Mathson
+links:
+  - https://twitter.com/scottmathson
+  - https://github.com/scottmathson
+  - https://instagram.com/scottmathson
+
+# Build settings
+permalink: pretty
+paginate: 12
+
+defaults:
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
+
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
+- jekyll-paginate
+exclude:
+- Gemfile
+- Gemfile.lock
+- package.json
+- README.md

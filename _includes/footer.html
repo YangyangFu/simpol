@@ -1,0 +1,14 @@
+<footer>
+	<p class="smaller mobile-only-show">
+		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "https://github.com/simpol-theme/simpol-theme-jekyll#readme" }}">{% endif %}
+		{% if site.nav_link_one_name %}{{ site.nav_link_one_name }}</a>{% else %}{{ "Setup links in _config.yml" }}</a>{% endif %}
+		&bull;
+		{% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
+		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+		&bull;
+		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
+		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+	</p>
+	<p class="inline-block">&copy; {% if site.copyright_name %}{{ site.copyright_name }}{% else %}{{ "Mathson Design, LLC" }}{% endif %} &bull; Simpol Theme by <a href="https://scottmathson.com">Scott Mathson</a>
+	</p>
+</footer>
